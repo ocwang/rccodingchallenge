@@ -10,6 +10,7 @@
 #import "RCLocationManager.h"
 #import "RCDeviceManager.h"
 #import "../Services/RCWeatherService.h"
+#import "../Supporting/RCErrorHelper.h"
 
 @interface RCManager ()
 
@@ -49,7 +50,13 @@
 # pragma mark - Methods
 
 - (void)currentLocationWithHandler:(void (^_Nonnull)(CLLocation *location, NSError *error))handler {
-    [self.locationManager getLocationWithHandler:handler];
+    // user must have iOS 9 or above for requestLocations API
+    if (@available(iOS 9.0, *)) {
+        [self.locationManager getLocationWithHandler:handler];
+    } else {
+        NSError *error = [RCErrorHelper errorWithCode:kRCErrorOSVersionUnsupported];
+        handler(nil, error);
+    }
 }
 
 - (void)batteryInfoWithHandler:(void (^_Nonnull)(BOOL isPluggedIn, float batteryLevel, NSError *error))handler {

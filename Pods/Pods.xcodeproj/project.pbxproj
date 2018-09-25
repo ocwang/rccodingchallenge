@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0308F98D324682A1ECBCA0D047CB8BC5 /* RCErrorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2E56A49E12A8D41D36FA9FA375885B /* RCErrorHelper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		01275C85C7F7EA160D88B52FB0869E07 /* RCErrorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2E56A49E12A8D41D36FA9FA375885B /* RCErrorHelper.m */; };
 		0CA18F10D7D4719E6D2DB0A41DDF8B30 /* Pods-RCCodingChallenge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A835B40F6099943D8559AAC67E414E /* Pods-RCCodingChallenge-dummy.m */; };
-		2027CE0C124DA6A6493129BCAB6290F8 /* RCWeatherInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDA2A05B873214C8359F073A78DCA0C /* RCWeatherInfo.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		2AE2462FF4AAF2CACF0390064FC95730 /* RCWeatherInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B1021C8B8196D54600B742867681A99 /* RCWeatherInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		363DC3A77E3B3DD7829DA4E00BB786CC /* RCDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0D46C02CBA14D933059ABE7BB315B2 /* RCDeviceManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		51A2CA227AF010B9436E081442C783AE /* RCDeviceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B0C3E9A87782C2B8892E28402172D95 /* RCDeviceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CFA4071EC0BBAD8B164D9EAE49E05CB /* RCCodingChallengeFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 845870C244ADB7F86A60418C57E215D4 /* RCCodingChallengeFramework-dummy.m */; };
-		67A2D82F36021012C0699B934907845D /* RCWeatherService.m in Sources */ = {isa = PBXBuildFile; fileRef = 879AB209DDD7D7FE94C15EF52C285C3B /* RCWeatherService.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		731F04823B6442D2C5668D4ACD40A5D1 /* RCErrorHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9379F11FE5A7A0DA7101752B1E31ADC0 /* RCErrorHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		739A9333DCECA4E46C3599AF2046FC19 /* RCConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C600B62447E760724215FE1F7B0B2FF /* RCConstants.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		762E659425E8EB0E2B92E6E1A60CD682 /* RCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 875C4D38A80CF8365E199462C2DF1C4F /* RCManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		90BA06AD3D3FBD5E77A7DAEDB653A17B /* RCLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D6CBA818889460A1650BD20C06840 /* RCLocationManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7EA9EE58FA11438D0D8A1D6B456956BB /* RCConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C600B62447E760724215FE1F7B0B2FF /* RCConstants.m */; };
+		98953F92CBDA3146F5E68FC30AAE329A /* RCDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0D46C02CBA14D933059ABE7BB315B2 /* RCDeviceManager.m */; };
 		A6040BB49E4AEE8BE6187DE823BEF177 /* Pods-RCCodingChallenge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD72B063CC857EEE3001F0CCDE0EEAFD /* Pods-RCCodingChallenge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEEDA1C8530A64C72A00C96DC3723089 /* RCWeatherService.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F67088D3D3D9D31195C45D41EA59C2 /* RCWeatherService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF2EBF26E175714EDEEFF5B1D979A72B /* RCWeatherInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDA2A05B873214C8359F073A78DCA0C /* RCWeatherInfo.m */; };
+		BBA50050821386817A2B4E8B95530262 /* RCWeatherService.m in Sources */ = {isa = PBXBuildFile; fileRef = 879AB209DDD7D7FE94C15EF52C285C3B /* RCWeatherService.m */; };
 		C1F03B6458F20FFE1ADC7D1B1769552B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		C87733296197E131F328E2E306B3C86B /* RCLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BDC3B515E5B991812840EA49481583E8 /* RCLocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC9DFDAFF9222DC43875EEE17F7A2400 /* RCConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 28B523D3D23ABB9F987CD57221D1C1A9 /* RCConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5057CC75D57EB47505C466BDED4E2AD /* RCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 875C4D38A80CF8365E199462C2DF1C4F /* RCManager.m */; };
 		D535AFF5A25B1D5C3314848FCE28BAD7 /* RCErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E664C23630FBFC2660023F8568D1405 /* RCErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D698382659035A8E3F0BEED6E300C57E /* RCCodingChallengeFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 845870C244ADB7F86A60418C57E215D4 /* RCCodingChallengeFramework-dummy.m */; };
 		D6AAEAB0C966966CCE6F2F296EA49315 /* RCCodingChallengeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 5497A0E08208A0C9E55AF25464172B8C /* RCCodingChallengeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E16DE6CC37BB8E555A1622BBD244D5EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		F23500A8A73ABEEDA8AF53067223E7B8 /* RCLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D6CBA818889460A1650BD20C06840 /* RCLocationManager.m */; };
 		F53832EB92A817ABFAD2959877820406 /* RCCodingChallengeFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D335445E7FACABD4B3EC48FA523819E /* RCCodingChallengeFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB602E8213E23296372152C2482D48C5 /* RCManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 46ED95B47B6723143FC97D3273D14E7A /* RCManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -264,7 +264,7 @@
 			buildConfigurationList = 9AD86B5EE39D338A0821CF90AA8041F5 /* Build configuration list for PBXNativeTarget "RCCodingChallengeFramework" */;
 			buildPhases = (
 				2807D9A5A01F889461EA71071AB18ABE /* Headers */,
-				C1AC96D695E6A742B178052047D72EBA /* Sources */,
+				031D5FE6445A7FC339DA47CBCCA5658A /* Sources */,
 				E865BAED3FC2D81FC5F726B9DAAD11EA /* Frameworks */,
 				AA161A4768EACA3EFC4A5E906A51830C /* Resources */,
 			);
@@ -322,26 +322,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		031D5FE6445A7FC339DA47CBCCA5658A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D698382659035A8E3F0BEED6E300C57E /* RCCodingChallengeFramework-dummy.m in Sources */,
+				7EA9EE58FA11438D0D8A1D6B456956BB /* RCConstants.m in Sources */,
+				98953F92CBDA3146F5E68FC30AAE329A /* RCDeviceManager.m in Sources */,
+				01275C85C7F7EA160D88B52FB0869E07 /* RCErrorHelper.m in Sources */,
+				F23500A8A73ABEEDA8AF53067223E7B8 /* RCLocationManager.m in Sources */,
+				D5057CC75D57EB47505C466BDED4E2AD /* RCManager.m in Sources */,
+				AF2EBF26E175714EDEEFF5B1D979A72B /* RCWeatherInfo.m in Sources */,
+				BBA50050821386817A2B4E8B95530262 /* RCWeatherService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9A2D31E5355F38A7CEAAAA3341AF2DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0CA18F10D7D4719E6D2DB0A41DDF8B30 /* Pods-RCCodingChallenge-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1AC96D695E6A742B178052047D72EBA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5CFA4071EC0BBAD8B164D9EAE49E05CB /* RCCodingChallengeFramework-dummy.m in Sources */,
-				739A9333DCECA4E46C3599AF2046FC19 /* RCConstants.m in Sources */,
-				363DC3A77E3B3DD7829DA4E00BB786CC /* RCDeviceManager.m in Sources */,
-				0308F98D324682A1ECBCA0D047CB8BC5 /* RCErrorHelper.m in Sources */,
-				90BA06AD3D3FBD5E77A7DAEDB653A17B /* RCLocationManager.m in Sources */,
-				762E659425E8EB0E2B92E6E1A60CD682 /* RCManager.m in Sources */,
-				2027CE0C124DA6A6493129BCAB6290F8 /* RCWeatherInfo.m in Sources */,
-				67A2D82F36021012C0699B934907845D /* RCWeatherService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,10 +357,11 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		57176554C4E14F18C69466303F3260B3 /* Release */ = {
+		0774E03F9D697B20D7BFE238D3EC335D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3BBDA1C511E5829AB971CE8F697C7C77 /* RCCodingChallengeFramework.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -373,7 +374,43 @@
 				GCC_PREFIX_HEADER = "Target Support Files/RCCodingChallengeFramework/RCCodingChallengeFramework-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/RCCodingChallengeFramework/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RCCodingChallengeFramework/RCCodingChallengeFramework.modulemap";
+				PRODUCT_MODULE_NAME = RCCodingChallengeFramework;
+				PRODUCT_NAME = RCCodingChallengeFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		28041CCF61AD86F11A43C5124FD1C811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BBDA1C511E5829AB971CE8F697C7C77 /* RCCodingChallengeFramework.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RCCodingChallengeFramework/RCCodingChallengeFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RCCodingChallengeFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,41 +525,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		D7EB5197E48D58FF8511D75190E399F6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BBDA1C511E5829AB971CE8F697C7C77 /* RCCodingChallengeFramework.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RCCodingChallengeFramework/RCCodingChallengeFramework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RCCodingChallengeFramework/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/RCCodingChallengeFramework/RCCodingChallengeFramework.modulemap";
-				PRODUCT_MODULE_NAME = RCCodingChallengeFramework;
-				PRODUCT_NAME = RCCodingChallengeFramework;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		F630AE95D034F654689C2B30ED961476 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -639,8 +641,8 @@
 		9AD86B5EE39D338A0821CF90AA8041F5 /* Build configuration list for PBXNativeTarget "RCCodingChallengeFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D7EB5197E48D58FF8511D75190E399F6 /* Debug */,
-				57176554C4E14F18C69466303F3260B3 /* Release */,
+				0774E03F9D697B20D7BFE238D3EC335D /* Debug */,
+				28041CCF61AD86F11A43C5124FD1C811 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

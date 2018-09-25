@@ -22,6 +22,8 @@
     switch (code) {
         case kRCErrorBatteryInfoUnknown:
             return @{NSLocalizedDescriptionKey: NSLocalizedString(@"Error reading battery information, please try again.", nil)};
+        case kRCErrorOSVersionUnsupported:
+            return @{NSLocalizedDescriptionKey: NSLocalizedString(@"Please update your operating system version and try again.", nil)};
         case kRCErrorLocationPermissionDenied:
             return @{NSLocalizedDescriptionKey: NSLocalizedString(@"Location permissions have been denied, please enable and try again.", nil)};
         case kRCErrorLocationNotFound:

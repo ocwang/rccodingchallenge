@@ -9,10 +9,11 @@
     "Chase Wang": "hi@ocwang.com"
   },
   "platforms": {
-    "ios": null
+    "ios": "12.0"
   },
   "source": {
-    "path": "."
+    "path": "https://github.com/ocwang/RCCodingChallengeFramework.git",
+    "branch": "master"
   },
   "source_files": [
     "RCCodingChallengeFramework",

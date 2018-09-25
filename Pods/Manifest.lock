@@ -11,11 +11,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   RCCodingChallengeFramework:
-    :commit: a32c6d03f51f10b73fd4123169d10ddb664573e4
+    :commit: f92d7c696e28094df2b44d1efa3d6fbbcf7a5884
     :git: https://github.com/ocwang/RCCodingChallengeFramework.git
 
 SPEC CHECKSUMS:
-  RCCodingChallengeFramework: ccf3396d5e9d4d64e012d7d71d3b89befbf2e558
+  RCCodingChallengeFramework: 91ee4a722fefb381966e2f41128e4bfdb28add65
 
 PODFILE CHECKSUM: 1917ee1bbbf68e0bff30f7a1f0b470f62aeae8d3
 

@@ -11,6 +11,7 @@
 
 typedef NS_ENUM(NSInteger, RCError) {
     kRCErrorBatteryInfoUnknown,
+    kRCErrorOSVersionUnsupported,
     kRCErrorLocationPermissionDenied,
     kRCErrorLocationNotFound,
     kRCErrorNetworkError,
