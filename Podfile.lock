@@ -1,0 +1,16 @@
+PODS:
+  - RCCodingChallengeFramework (0.0.1)
+
+DEPENDENCIES:
+  - RCCodingChallengeFramework (from `../RCCodingChallengeFramework`)
+
+EXTERNAL SOURCES:
+  RCCodingChallengeFramework:
+    :path: "../RCCodingChallengeFramework"
+
+SPEC CHECKSUMS:
+  RCCodingChallengeFramework: c6e3d5c8a66db9a18e8bbb07485499e71c946545
+
+PODFILE CHECKSUM: 685fa0bbc3185ecd1a42970c92eaa8bd470d0c2a
+
+COCOAPODS: 1.5.3

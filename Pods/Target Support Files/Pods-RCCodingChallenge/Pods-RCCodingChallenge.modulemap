@@ -1,0 +1,6 @@
+framework module Pods_RCCodingChallenge {
+  umbrella header "Pods-RCCodingChallenge-umbrella.h"
+
+  export *
+  module * { export * }
+}

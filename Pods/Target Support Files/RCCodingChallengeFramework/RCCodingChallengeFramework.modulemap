@@ -1,0 +1,6 @@
+framework module RCCodingChallengeFramework {
+  umbrella header "RCCodingChallengeFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

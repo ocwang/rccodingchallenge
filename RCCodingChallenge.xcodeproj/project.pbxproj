@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA497A6821599E7900005A54 /* RCCodingChallengeFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA08C24421599E0B00B72135 /* RCCodingChallengeFramework.framework */; };
-		CA497A6921599E7900005A54 /* RCCodingChallengeFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CA08C24421599E0B00B72135 /* RCCodingChallengeFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		03A7CD504CCE7CBAFED71ED6 /* Pods_RCCodingChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95EC1E2D4632928C82152CAE /* Pods_RCCodingChallenge.framework */; };
 		CA4AEC23215976F3001982C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4AEC22215976F3001982C9 /* AppDelegate.m */; };
 		CA4AEC29215976F3001982C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA4AEC27215976F3001982C9 /* Main.storyboard */; };
 		CA4AEC2B215976F4001982C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA4AEC2A215976F4001982C9 /* Assets.xcassets */; };
@@ -18,23 +17,6 @@
 		CA4AEC3D215977F8001982C9 /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4AEC3C215977F8001982C9 /* SwiftViewController.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		CA08C24321599E0B00B72135 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CA08C23F21599E0B00B72135 /* RCCodingChallengeFramework.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CA08C22421599ACC00B72135;
-			remoteInfo = RCCodingChallengeFramework;
-		};
-		CA497A6A21599E7900005A54 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CA08C23F21599E0B00B72135 /* RCCodingChallengeFramework.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = CA08C22321599ACC00B72135;
-			remoteInfo = RCCodingChallengeFramework;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		CA497A6C21599E7900005A54 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -42,7 +24,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				CA497A6921599E7900005A54 /* RCCodingChallengeFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,7 +31,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CA08C23F21599E0B00B72135 /* RCCodingChallengeFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCCodingChallengeFramework.xcodeproj; path = ../RCCodingChallengeFramework/RCCodingChallengeFramework.xcodeproj; sourceTree = "<group>"; };
+		95EC1E2D4632928C82152CAE /* Pods_RCCodingChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RCCodingChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAAE34A0F58D1F429946D5EB /* Pods-RCCodingChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCCodingChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-RCCodingChallenge/Pods-RCCodingChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		CA4AEC1E215976F3001982C9 /* RCCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA4AEC21215976F3001982C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA4AEC22215976F3001982C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,6 +45,7 @@
 		CA4AEC38215977C0001982C9 /* ObjCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCViewController.m; sourceTree = "<group>"; };
 		CA4AEC3B215977F7001982C9 /* RCCodingChallenge-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCCodingChallenge-Bridging-Header.h"; sourceTree = "<group>"; };
 		CA4AEC3C215977F8001982C9 /* SwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
+		DB9F982396602ECA8D2BA095 /* Pods-RCCodingChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCCodingChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RCCodingChallenge/Pods-RCCodingChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,27 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA497A6821599E7900005A54 /* RCCodingChallengeFramework.framework in Frameworks */,
+				03A7CD504CCE7CBAFED71ED6 /* Pods_RCCodingChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CA08C24021599E0B00B72135 /* Products */ = {
+		4FE0D36DAECE95DBD0061F86 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CA08C24421599E0B00B72135 /* RCCodingChallengeFramework.framework */,
+				95EC1E2D4632928C82152CAE /* Pods_RCCodingChallenge.framework */,
 			);
-			name = Products;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81CCD1C7FE7629DE70BD4A72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB9F982396602ECA8D2BA095 /* Pods-RCCodingChallenge.debug.xcconfig */,
+				AAAE34A0F58D1F429946D5EB /* Pods-RCCodingChallenge.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		CA4AEC15215976F3001982C9 = {
 			isa = PBXGroup;
 			children = (
-				CA08C23F21599E0B00B72135 /* RCCodingChallengeFramework.xcodeproj */,
 				CA4AEC20215976F3001982C9 /* RCCodingChallenge */,
 				CA4AEC1F215976F3001982C9 /* Products */,
+				81CCD1C7FE7629DE70BD4A72 /* Pods */,
+				4FE0D36DAECE95DBD0061F86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,15 +144,16 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA4AEC34215976F5001982C9 /* Build configuration list for PBXNativeTarget "RCCodingChallenge" */;
 			buildPhases = (
+				A3E69AA08008571F6F380F16 /* [CP] Check Pods Manifest.lock */,
 				CA4AEC1A215976F3001982C9 /* Sources */,
 				CA4AEC1B215976F3001982C9 /* Frameworks */,
 				CA4AEC1C215976F3001982C9 /* Resources */,
 				CA497A6C21599E7900005A54 /* Embed Frameworks */,
+				767D0D5451C2007D417714FA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CA497A6B21599E7900005A54 /* PBXTargetDependency */,
 			);
 			name = RCCodingChallenge;
 			productName = RCCodingChallenge;
@@ -192,28 +186,12 @@
 			mainGroup = CA4AEC15215976F3001982C9;
 			productRefGroup = CA4AEC1F215976F3001982C9 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = CA08C24021599E0B00B72135 /* Products */;
-					ProjectRef = CA08C23F21599E0B00B72135 /* RCCodingChallengeFramework.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				CA4AEC1D215976F3001982C9 /* RCCodingChallenge */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		CA08C24421599E0B00B72135 /* RCCodingChallengeFramework.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = RCCodingChallengeFramework.framework;
-			remoteRef = CA08C24321599E0B00B72135 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		CA4AEC1C215976F3001982C9 /* Resources */ = {
@@ -228,6 +206,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		767D0D5451C2007D417714FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RCCodingChallenge/Pods-RCCodingChallenge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RCCodingChallengeFramework/RCCodingChallengeFramework.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCCodingChallengeFramework.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RCCodingChallenge/Pods-RCCodingChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3E69AA08008571F6F380F16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RCCodingChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CA4AEC1A215976F3001982C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -241,14 +266,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CA497A6B21599E7900005A54 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RCCodingChallengeFramework;
-			targetProxy = CA497A6A21599E7900005A54 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CA4AEC27215976F3001982C9 /* Main.storyboard */ = {
@@ -384,6 +401,7 @@
 		};
 		CA4AEC35215976F5001982C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB9F982396602ECA8D2BA095 /* Pods-RCCodingChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -405,6 +423,7 @@
 		};
 		CA4AEC36215976F5001982C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAAE34A0F58D1F429946D5EB /* Pods-RCCodingChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

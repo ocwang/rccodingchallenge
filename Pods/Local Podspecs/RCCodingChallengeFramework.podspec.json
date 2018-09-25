@@ -1,0 +1,22 @@
+{
+  "name": "RCCodingChallengeFramework",
+  "version": "0.0.1",
+  "summary": "A iOS framework for the RunCoach coding challenge.",
+  "description": "The RCCodingChallengeFramework can get information about the user's current GPS location, their battery information and weather information about the current city they're in.",
+  "homepage": "https://runcoach.com",
+  "license": "MIT",
+  "authors": {
+    "Chase Wang": "hi@ocwang.com"
+  },
+  "platforms": {
+    "ios": null
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": [
+    "RCCodingChallengeFramework",
+    "RCCodingChallengeFramework/**/*.{h,m}"
+  ],
+  "swift_version": "4.2"
+}

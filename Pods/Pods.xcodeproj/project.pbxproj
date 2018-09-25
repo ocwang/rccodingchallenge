@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03FA0408C34038AF919E5BEC8F2D2336 /* RCWeatherInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6DD1E9520D3084610B6020AE05E17F /* RCWeatherInfo.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0CA18F10D7D4719E6D2DB0A41DDF8B30 /* Pods-RCCodingChallenge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A835B40F6099943D8559AAC67E414E /* Pods-RCCodingChallenge-dummy.m */; };
+		119CF7AEB7C33A4EFD73E3871999E695 /* RCLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E6F8028CA978F6E6D51C31326458AC /* RCLocationManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1BA5953F8732AC9697F51B8C719767AF /* RCManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F86C196A5FB550A5DA1E17271E8B751 /* RCManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2059BB99156C8A3324E8464D3C286683 /* RCDeviceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FD874C165BF3EF549E99B5CDA97F34C5 /* RCDeviceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BE9D750E6151A2682CAE0467FD05D98 /* RCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FEBD7BA062660533E7EF91F8F7A1DF /* RCManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		31AA021BE329A4884AE487CCC1AF6BDC /* RCLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E41E46FE9EFA8F17118A867F889E086D /* RCLocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CEE482821815D9EB4CB6253894CCBC5 /* RCWeatherService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC485FB193C35C7102D95A1C65B9B06 /* RCWeatherService.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		67D72FF0607DAE62D4DC6E3A7800C681 /* RCWeatherService.h in Headers */ = {isa = PBXBuildFile; fileRef = F6C28D9F52138444AF22D842E14C5214 /* RCWeatherService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CB24D4FE3309B002A6FD62DF2CBE177 /* RCConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 58D6969436399D3BFAE8397FBB6D71D9 /* RCConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		748085D45041B6A324318757134B99C0 /* RCDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EC6C7FF0D09CC2C25C7368B97EF4A1 /* RCDeviceManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		87C317C15A1C3C2DA278CDB8F00404A6 /* RCErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BBCCC262474034204AD812E85764CCC /* RCErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AD47D5A6FA8EE22254C8BC0D51A903D /* RCErrorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C0625B85A71D9A7548A7BE09CD5064 /* RCErrorHelper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8AEB88A47A1C1485266F09BACFB92040 /* RCCodingChallengeFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CFDE09047B475B81FCF14B02F4CE15C /* RCCodingChallengeFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6040BB49E4AEE8BE6187DE823BEF177 /* Pods-RCCodingChallenge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD72B063CC857EEE3001F0CCDE0EEAFD /* Pods-RCCodingChallenge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1F03B6458F20FFE1ADC7D1B1769552B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		C4E2F2066F6D4AAF90DBC5B72346563D /* RCErrorHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2068A95ECC85876E3822981D36EE9D4E /* RCErrorHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC9FD4E293AD4C89E0CE8B2F2E3F6208 /* RCCodingChallengeFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C2090844861C59474500B772B4D688 /* RCCodingChallengeFramework-dummy.m */; };
+		D76857E795DE3C4E4C12F0689F175D6F /* RCCodingChallengeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 57A934AF8240A06893D444C829356A4E /* RCCodingChallengeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E16DE6CC37BB8E555A1622BBD244D5EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		F75B910555723AD28C376E6376C5CD60 /* RCWeatherInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C1038E72541A63A29EDF644E8ECB422 /* RCWeatherInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC965EEDB5EAB3BCBC7D4AFBC53DEF21 /* RCConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A78EA8D039C3B327C43BD66202936E /* RCConstants.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C340690BC6D7F6238F2A89BB408B4ADC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D157853144615C5DC27DA96F94565E1C;
+			remoteInfo = RCCodingChallengeFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0230C6DB80A6AB61F9589A8D275F5A67 /* Pods-RCCodingChallenge-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RCCodingChallenge-acknowledgements.plist"; sourceTree = "<group>"; };
+		05FEBD7BA062660533E7EF91F8F7A1DF /* RCManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCManager.m; sourceTree = "<group>"; };
+		0E1B1013D3FD41BE03760A2EE9773F62 /* Pods-RCCodingChallenge-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCCodingChallenge-frameworks.sh"; sourceTree = "<group>"; };
+		1BBCCC262474034204AD812E85764CCC /* RCErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCErrors.h; sourceTree = "<group>"; };
+		2068A95ECC85876E3822981D36EE9D4E /* RCErrorHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCErrorHelper.h; sourceTree = "<group>"; };
+		25A78EA8D039C3B327C43BD66202936E /* RCConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCConstants.m; sourceTree = "<group>"; };
+		28C0625B85A71D9A7548A7BE09CD5064 /* RCErrorHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCErrorHelper.m; sourceTree = "<group>"; };
+		33B9DDAF64E58CC895FB22B5D9396FDE /* RCCodingChallengeFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RCCodingChallengeFramework.modulemap; sourceTree = "<group>"; };
+		33CCE42FF700C2E74D6AA273BE5AA1C8 /* Pods-RCCodingChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCCodingChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		3C35030601E76C9011C6E9D785466283 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CC485FB193C35C7102D95A1C65B9B06 /* RCWeatherService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCWeatherService.m; sourceTree = "<group>"; };
+		4C39B8F73D9892B5D7C85374F7FD5F5E /* RCCodingChallengeFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RCCodingChallengeFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5154FF67EBBE0B669B02294CCCC7B6C2 /* Pods_RCCodingChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RCCodingChallenge.framework; path = "Pods-RCCodingChallenge.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57A934AF8240A06893D444C829356A4E /* RCCodingChallengeFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCCodingChallengeFramework.h; path = RCCodingChallengeFramework/RCCodingChallengeFramework.h; sourceTree = "<group>"; };
+		58D6969436399D3BFAE8397FBB6D71D9 /* RCConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCConstants.h; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5C1038E72541A63A29EDF644E8ECB422 /* RCWeatherInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCWeatherInfo.h; sourceTree = "<group>"; };
+		6CFDE09047B475B81FCF14B02F4CE15C /* RCCodingChallengeFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCCodingChallengeFramework-umbrella.h"; sourceTree = "<group>"; };
+		6E6DD1E9520D3084610B6020AE05E17F /* RCWeatherInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCWeatherInfo.m; sourceTree = "<group>"; };
+		746142941122E32475A3E3B09906719B /* Pods-RCCodingChallenge-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RCCodingChallenge-acknowledgements.markdown"; sourceTree = "<group>"; };
+		83DF098C3FD19246370C5DC7BFB2FC78 /* RCCodingChallengeFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCCodingChallengeFramework-prefix.pch"; sourceTree = "<group>"; };
+		86ECBCB1658C1BE928B2693498CD8481 /* Pods-RCCodingChallenge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RCCodingChallenge.modulemap"; sourceTree = "<group>"; };
+		8AA24BE678D0C4F1F835DC16EC5B8CCB /* Pods-RCCodingChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCCodingChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		915FD5C91A19C2C7793CD4C8786E7186 /* RCCodingChallengeFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RCCodingChallengeFramework.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C3A6DDD03FD858C3E0F3A71A7B8D240 /* RCCodingChallengeFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RCCodingChallengeFramework.framework; path = RCCodingChallengeFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F86C196A5FB550A5DA1E17271E8B751 /* RCManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCManager.h; sourceTree = "<group>"; };
+		C6A835B40F6099943D8559AAC67E414E /* Pods-RCCodingChallenge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RCCodingChallenge-dummy.m"; sourceTree = "<group>"; };
+		C7C2090844861C59474500B772B4D688 /* RCCodingChallengeFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RCCodingChallengeFramework-dummy.m"; sourceTree = "<group>"; };
+		CA57C3B236D50371D27DC6F785326B38 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD72B063CC857EEE3001F0CCDE0EEAFD /* Pods-RCCodingChallenge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RCCodingChallenge-umbrella.h"; sourceTree = "<group>"; };
+		D8EC6C7FF0D09CC2C25C7368B97EF4A1 /* RCDeviceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCDeviceManager.m; sourceTree = "<group>"; };
+		E41E46FE9EFA8F17118A867F889E086D /* RCLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCLocationManager.h; sourceTree = "<group>"; };
+		E6C49C847310F7A198CBA7624B0CFEF6 /* Pods-RCCodingChallenge-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCCodingChallenge-resources.sh"; sourceTree = "<group>"; };
+		F6C28D9F52138444AF22D842E14C5214 /* RCWeatherService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCWeatherService.h; sourceTree = "<group>"; };
+		F7E6F8028CA978F6E6D51C31326458AC /* RCLocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCLocationManager.m; sourceTree = "<group>"; };
+		FD874C165BF3EF549E99B5CDA97F34C5 /* RCDeviceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCDeviceManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A112964352FDB4FAF576E1E26C3D1DF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F03B6458F20FFE1ADC7D1B1769552B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E865BAED3FC2D81FC5F726B9DAAD11EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16DE6CC37BB8E555A1622BBD244D5EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2893131272452B8B225998417D2C4784 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				83A16EF99596F49E32F55D2BAD42239B /* Pods-RCCodingChallenge */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		394CC3F35952726A0E8EF3F70ECE5BD3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F6C28D9F52138444AF22D842E14C5214 /* RCWeatherService.h */,
+				3CC485FB193C35C7102D95A1C65B9B06 /* RCWeatherService.m */,
+			);
+			name = Services;
+			path = RCCodingChallengeFramework/Services;
+			sourceTree = "<group>";
+		};
+		455AD82FFD6423ABD126E5B54F1341D2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4C39B8F73D9892B5D7C85374F7FD5F5E /* RCCodingChallengeFramework.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		671EDBA4F622E614B6963C4DA570566D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5C1038E72541A63A29EDF644E8ECB422 /* RCWeatherInfo.h */,
+				6E6DD1E9520D3084610B6020AE05E17F /* RCWeatherInfo.m */,
+			);
+			name = Models;
+			path = RCCodingChallengeFramework/Models;
+			sourceTree = "<group>";
+		};
+		6E70C7B8F52221960DB99DBB8BF13E66 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				FD874C165BF3EF549E99B5CDA97F34C5 /* RCDeviceManager.h */,
+				D8EC6C7FF0D09CC2C25C7368B97EF4A1 /* RCDeviceManager.m */,
+				E41E46FE9EFA8F17118A867F889E086D /* RCLocationManager.h */,
+				F7E6F8028CA978F6E6D51C31326458AC /* RCLocationManager.m */,
+				9F86C196A5FB550A5DA1E17271E8B751 /* RCManager.h */,
+				05FEBD7BA062660533E7EF91F8F7A1DF /* RCManager.m */,
+			);
+			name = Managers;
+			path = RCCodingChallengeFramework/Managers;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BE3E7416D26C0E8DC005EE779869049C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D912B09567FE017E7BC82F8724CEF3EA /* Products */,
+				2893131272452B8B225998417D2C4784 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83A16EF99596F49E32F55D2BAD42239B /* Pods-RCCodingChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				3C35030601E76C9011C6E9D785466283 /* Info.plist */,
+				86ECBCB1658C1BE928B2693498CD8481 /* Pods-RCCodingChallenge.modulemap */,
+				746142941122E32475A3E3B09906719B /* Pods-RCCodingChallenge-acknowledgements.markdown */,
+				0230C6DB80A6AB61F9589A8D275F5A67 /* Pods-RCCodingChallenge-acknowledgements.plist */,
+				C6A835B40F6099943D8559AAC67E414E /* Pods-RCCodingChallenge-dummy.m */,
+				0E1B1013D3FD41BE03760A2EE9773F62 /* Pods-RCCodingChallenge-frameworks.sh */,
+				E6C49C847310F7A198CBA7624B0CFEF6 /* Pods-RCCodingChallenge-resources.sh */,
+				CD72B063CC857EEE3001F0CCDE0EEAFD /* Pods-RCCodingChallenge-umbrella.h */,
+				33CCE42FF700C2E74D6AA273BE5AA1C8 /* Pods-RCCodingChallenge.debug.xcconfig */,
+				8AA24BE678D0C4F1F835DC16EC5B8CCB /* Pods-RCCodingChallenge.release.xcconfig */,
+			);
+			name = "Pods-RCCodingChallenge";
+			path = "Target Support Files/Pods-RCCodingChallenge";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE3E7416D26C0E8DC005EE779869049C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA64ED603BA683653F4B2DA1D02C9421 /* RCCodingChallengeFramework */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C814635A86F6FDE9AF4673623829435E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA57C3B236D50371D27DC6F785326B38 /* Info.plist */,
+				33B9DDAF64E58CC895FB22B5D9396FDE /* RCCodingChallengeFramework.modulemap */,
+				915FD5C91A19C2C7793CD4C8786E7186 /* RCCodingChallengeFramework.xcconfig */,
+				C7C2090844861C59474500B772B4D688 /* RCCodingChallengeFramework-dummy.m */,
+				83DF098C3FD19246370C5DC7BFB2FC78 /* RCCodingChallengeFramework-prefix.pch */,
+				6CFDE09047B475B81FCF14B02F4CE15C /* RCCodingChallengeFramework-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../RCCodingChallenge/Pods/Target Support Files/RCCodingChallengeFramework";
+			sourceTree = "<group>";
+		};
+		CC31068321DC911DE9BAACCAE72BE9AC /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				58D6969436399D3BFAE8397FBB6D71D9 /* RCConstants.h */,
+				25A78EA8D039C3B327C43BD66202936E /* RCConstants.m */,
+				2068A95ECC85876E3822981D36EE9D4E /* RCErrorHelper.h */,
+				28C0625B85A71D9A7548A7BE09CD5064 /* RCErrorHelper.m */,
+				1BBCCC262474034204AD812E85764CCC /* RCErrors.h */,
+			);
+			name = Supporting;
+			path = RCCodingChallengeFramework/Supporting;
+			sourceTree = "<group>";
+		};
+		D912B09567FE017E7BC82F8724CEF3EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5154FF67EBBE0B669B02294CCCC7B6C2 /* Pods_RCCodingChallenge.framework */,
+				9C3A6DDD03FD858C3E0F3A71A7B8D240 /* RCCodingChallengeFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA64ED603BA683653F4B2DA1D02C9421 /* RCCodingChallengeFramework */ = {
+			isa = PBXGroup;
+			children = (
+				57A934AF8240A06893D444C829356A4E /* RCCodingChallengeFramework.h */,
+				6E70C7B8F52221960DB99DBB8BF13E66 /* Managers */,
+				671EDBA4F622E614B6963C4DA570566D /* Models */,
+				455AD82FFD6423ABD126E5B54F1341D2 /* Pod */,
+				394CC3F35952726A0E8EF3F70ECE5BD3 /* Services */,
+				C814635A86F6FDE9AF4673623829435E /* Support Files */,
+				CC31068321DC911DE9BAACCAE72BE9AC /* Supporting */,
+			);
+			name = RCCodingChallengeFramework;
+			path = ../../RCCodingChallengeFramework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0CF8B68AA24243A867D179EB9427AB9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6040BB49E4AEE8BE6187DE823BEF177 /* Pods-RCCodingChallenge-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D00B0ABE65BEC2AE80941C45C3F6C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEB88A47A1C1485266F09BACFB92040 /* RCCodingChallengeFramework-umbrella.h in Headers */,
+				D76857E795DE3C4E4C12F0689F175D6F /* RCCodingChallengeFramework.h in Headers */,
+				6CB24D4FE3309B002A6FD62DF2CBE177 /* RCConstants.h in Headers */,
+				2059BB99156C8A3324E8464D3C286683 /* RCDeviceManager.h in Headers */,
+				C4E2F2066F6D4AAF90DBC5B72346563D /* RCErrorHelper.h in Headers */,
+				87C317C15A1C3C2DA278CDB8F00404A6 /* RCErrors.h in Headers */,
+				31AA021BE329A4884AE487CCC1AF6BDC /* RCLocationManager.h in Headers */,
+				1BA5953F8732AC9697F51B8C719767AF /* RCManager.h in Headers */,
+				F75B910555723AD28C376E6376C5CD60 /* RCWeatherInfo.h in Headers */,
+				67D72FF0607DAE62D4DC6E3A7800C681 /* RCWeatherService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6FC8DB5C2575FD4B9D1AFCF06D73A71B /* Pods-RCCodingChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB39563ECB9F1979712D32BC23858E2C /* Build configuration list for PBXNativeTarget "Pods-RCCodingChallenge" */;
+			buildPhases = (
+				0CF8B68AA24243A867D179EB9427AB9C /* Headers */,
+				A9A2D31E5355F38A7CEAAAA3341AF2DC /* Sources */,
+				A112964352FDB4FAF576E1E26C3D1DF6 /* Frameworks */,
+				C723B0A6A64A4AD7412DF531E4B07724 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				330225D5264B157967A5E41F12C5C350 /* PBXTargetDependency */,
+			);
+			name = "Pods-RCCodingChallenge";
+			productName = "Pods-RCCodingChallenge";
+			productReference = 5154FF67EBBE0B669B02294CCCC7B6C2 /* Pods_RCCodingChallenge.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D157853144615C5DC27DA96F94565E1C /* RCCodingChallengeFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AD86B5EE39D338A0821CF90AA8041F5 /* Build configuration list for PBXNativeTarget "RCCodingChallengeFramework" */;
+			buildPhases = (
+				E7D00B0ABE65BEC2AE80941C45C3F6C9 /* Headers */,
+				0F6E60EC9AFAB50570DB827F7EC84AEA /* Sources */,
+				E865BAED3FC2D81FC5F726B9DAAD11EA /* Frameworks */,
+				AA161A4768EACA3EFC4A5E906A51830C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCCodingChallengeFramework;
+			productName = RCCodingChallengeFramework;
+			productReference = 9C3A6DDD03FD858C3E0F3A71A7B8D240 /* RCCodingChallengeFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D912B09567FE017E7BC82F8724CEF3EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FC8DB5C2575FD4B9D1AFCF06D73A71B /* Pods-RCCodingChallenge */,
+				D157853144615C5DC27DA96F94565E1C /* RCCodingChallengeFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA161A4768EACA3EFC4A5E906A51830C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C723B0A6A64A4AD7412DF531E4B07724 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F6E60EC9AFAB50570DB827F7EC84AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9FD4E293AD4C89E0CE8B2F2E3F6208 /* RCCodingChallengeFramework-dummy.m in Sources */,
+				FC965EEDB5EAB3BCBC7D4AFBC53DEF21 /* RCConstants.m in Sources */,
+				748085D45041B6A324318757134B99C0 /* RCDeviceManager.m in Sources */,
+				8AD47D5A6FA8EE22254C8BC0D51A903D /* RCErrorHelper.m in Sources */,
+				119CF7AEB7C33A4EFD73E3871999E695 /* RCLocationManager.m in Sources */,
+				2BE9D750E6151A2682CAE0467FD05D98 /* RCManager.m in Sources */,
+				03FA0408C34038AF919E5BEC8F2D2336 /* RCWeatherInfo.m in Sources */,
+				5CEE482821815D9EB4CB6253894CCBC5 /* RCWeatherService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9A2D31E5355F38A7CEAAAA3341AF2DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA18F10D7D4719E6D2DB0A41DDF8B30 /* Pods-RCCodingChallenge-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		330225D5264B157967A5E41F12C5C350 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RCCodingChallengeFramework;
+			target = D157853144615C5DC27DA96F94565E1C /* RCCodingChallengeFramework */;
+			targetProxy = C340690BC6D7F6238F2A89BB408B4ADC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		57176554C4E14F18C69466303F3260B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 915FD5C91A19C2C7793CD4C8786E7186 /* RCCodingChallengeFramework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RCCodingChallengeFramework/RCCodingChallengeFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RCCodingChallengeFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RCCodingChallengeFramework/RCCodingChallengeFramework.modulemap";
+				PRODUCT_MODULE_NAME = RCCodingChallengeFramework;
+				PRODUCT_NAME = RCCodingChallengeFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C06F03372FEBC09AD65739E323F9596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A8C8F8F5960FE1E56D9EE6642B77A5E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AA24BE678D0C4F1F835DC16EC5B8CCB /* Pods-RCCodingChallenge.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RCCodingChallenge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RCCodingChallenge/Pods-RCCodingChallenge.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7EB5197E48D58FF8511D75190E399F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 915FD5C91A19C2C7793CD4C8786E7186 /* RCCodingChallengeFramework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RCCodingChallengeFramework/RCCodingChallengeFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RCCodingChallengeFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RCCodingChallengeFramework/RCCodingChallengeFramework.modulemap";
+				PRODUCT_MODULE_NAME = RCCodingChallengeFramework;
+				PRODUCT_NAME = RCCodingChallengeFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F630AE95D034F654689C2B30ED961476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F6708946311EF7ED825AD14762CFB50D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33CCE42FF700C2E74D6AA273BE5AA1C8 /* Pods-RCCodingChallenge.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RCCodingChallenge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RCCodingChallenge/Pods-RCCodingChallenge.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F630AE95D034F654689C2B30ED961476 /* Debug */,
+				8C06F03372FEBC09AD65739E323F9596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AD86B5EE39D338A0821CF90AA8041F5 /* Build configuration list for PBXNativeTarget "RCCodingChallengeFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7EB5197E48D58FF8511D75190E399F6 /* Debug */,
+				57176554C4E14F18C69466303F3260B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB39563ECB9F1979712D32BC23858E2C /* Build configuration list for PBXNativeTarget "Pods-RCCodingChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6708946311EF7ED825AD14762CFB50D /* Debug */,
+				A8C8F8F5960FE1E56D9EE6642B77A5E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
