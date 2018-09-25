@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ObjCViewController.h
 //  RCCodingChallenge
 //
 //  Created by Chase Wang on 9/24/18.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface ObjCViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

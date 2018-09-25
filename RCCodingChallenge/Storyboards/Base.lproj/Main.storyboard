@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AFD-GR-ez6">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Obj. C-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ObjCViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="lsc-Ib-yF2">
+                                <rect key="frame" x="15" y="403" width="345" height="190"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6JV-DV-jnC">
+                                        <rect key="frame" x="0.0" y="0.0" width="345" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="jGT-wd-MOK"/>
+                                        </constraints>
+                                        <state key="normal" title="My Location"/>
+                                        <connections>
+                                            <action selector="getLocationButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mwH-Rm-dJh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r4p-Zs-smz">
+                                        <rect key="frame" x="0.0" y="70" width="345" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="4RO-ws-DmX"/>
+                                        </constraints>
+                                        <state key="normal" title="Current Battery Info"/>
+                                        <connections>
+                                            <action selector="getBatteryInfoButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e4D-Le-AFz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="clP-hZ-kQj">
+                                        <rect key="frame" x="0.0" y="140" width="345" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="vzO-AD-LAu"/>
+                                        </constraints>
+                                        <state key="normal" title="Weather Forecast"/>
+                                        <connections>
+                                            <action selector="getWeatherButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="myW-D9-Fg9"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This was written in Obj. C. Click a button below to get started." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uBX-Id-D1F">
+                                <rect key="frame" x="15" y="65" width="345" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uBX-Id-D1F" secondAttribute="trailing" constant="15" id="3Om-ae-Mtd"/>
+                            <constraint firstItem="uBX-Id-D1F" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="MDH-0y-fbf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lsc-Ib-yF2" secondAttribute="trailing" constant="15" id="UaT-AA-uPc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lsc-Ib-yF2" secondAttribute="bottom" constant="25" id="bwh-yi-NHV"/>
+                            <constraint firstItem="uBX-Id-D1F" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="hfQ-Wi-1pY"/>
+                            <constraint firstItem="lsc-Ib-yF2" firstAttribute="top" relation="greaterThanOrEqual" secondItem="uBX-Id-D1F" secondAttribute="bottom" constant="45" id="ioL-pN-r0n"/>
+                            <constraint firstItem="lsc-Ib-yF2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="pJh-FN-Xuj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Obj. C" id="Une-Yc-2Dh"/>
+                    <connections>
+                        <outlet property="displayLabel" destination="uBX-Id-D1F" id="pzK-zh-y2r"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-278" y="904"/>
+        </scene>
+        <!--Swift-->
+        <scene sceneID="55Z-b8-PXj">
+            <objects>
+                <viewController id="aEi-Cv-MhQ" customClass="SwiftViewController" customModule="RCCodingChallenge" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dBB-oF-IKi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This was written in Swift. Click a button below to get started." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZxK-Fy-hku">
+                                <rect key="frame" x="15" y="65" width="345" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="1aZ-zY-ham">
+                                <rect key="frame" x="15" y="403" width="345" height="190"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="al6-L9-iKb">
+                                        <rect key="frame" x="0.0" y="0.0" width="345" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="qPT-gd-0HB"/>
+                                        </constraints>
+                                        <state key="normal" title="My Location"/>
+                                        <connections>
+                                            <action selector="getLocationButtonTapped:" destination="aEi-Cv-MhQ" eventType="touchUpInside" id="HXZ-sR-wUv"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCD-f9-N5I">
+                                        <rect key="frame" x="0.0" y="70" width="345" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="cyn-yk-DhX"/>
+                                        </constraints>
+                                        <state key="normal" title="Current Battery Info"/>
+                                        <connections>
+                                            <action selector="getBatteryInfoButtonTapped:" destination="aEi-Cv-MhQ" eventType="touchUpInside" id="tPL-C8-0EL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hWX-X2-hre">
+                                        <rect key="frame" x="0.0" y="140" width="345" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="jUG-yd-FG9"/>
+                                        </constraints>
+                                        <state key="normal" title="Weather Forecast"/>
+                                        <connections>
+                                            <action selector="getWeatherButtonTapped:" destination="aEi-Cv-MhQ" eventType="touchUpInside" id="mVE-kW-Fg2"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="81C-2I-9Fu" firstAttribute="bottom" secondItem="1aZ-zY-ham" secondAttribute="bottom" constant="25" id="79V-V5-C8d"/>
+                            <constraint firstItem="1aZ-zY-ham" firstAttribute="top" relation="greaterThanOrEqual" secondItem="ZxK-Fy-hku" secondAttribute="bottom" constant="45" id="9PH-r9-GTK"/>
+                            <constraint firstItem="ZxK-Fy-hku" firstAttribute="top" secondItem="81C-2I-9Fu" secondAttribute="top" constant="45" id="DBw-ag-s36"/>
+                            <constraint firstItem="81C-2I-9Fu" firstAttribute="trailing" secondItem="1aZ-zY-ham" secondAttribute="trailing" constant="15" id="ML2-FH-tdV"/>
+                            <constraint firstItem="1aZ-zY-ham" firstAttribute="leading" secondItem="81C-2I-9Fu" secondAttribute="leading" constant="15" id="WJ4-1J-gu1"/>
+                            <constraint firstItem="ZxK-Fy-hku" firstAttribute="leading" secondItem="81C-2I-9Fu" secondAttribute="leading" constant="15" id="caX-xX-di8"/>
+                            <constraint firstItem="81C-2I-9Fu" firstAttribute="trailing" secondItem="ZxK-Fy-hku" secondAttribute="trailing" constant="15" id="k4E-Zh-hz8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="81C-2I-9Fu"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Swift" id="KmF-KG-sdE"/>
+                    <connections>
+                        <outlet property="displayLabel" destination="ZxK-Fy-hku" id="cLe-TU-h9X"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BSA-Mv-H7v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="582" y="904"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="2Pr-lk-Dgt">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="AFD-GR-ez6" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Duq-tx-jLU">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="35W-bg-9vP"/>
+                        <segue destination="aEi-Cv-MhQ" kind="relationship" relationship="viewControllers" id="ggF-UU-2OZ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7YM-Rp-9A2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
