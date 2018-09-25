@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03FA0408C34038AF919E5BEC8F2D2336 /* RCWeatherInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6DD1E9520D3084610B6020AE05E17F /* RCWeatherInfo.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0308F98D324682A1ECBCA0D047CB8BC5 /* RCErrorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2E56A49E12A8D41D36FA9FA375885B /* RCErrorHelper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		0CA18F10D7D4719E6D2DB0A41DDF8B30 /* Pods-RCCodingChallenge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A835B40F6099943D8559AAC67E414E /* Pods-RCCodingChallenge-dummy.m */; };
-		119CF7AEB7C33A4EFD73E3871999E695 /* RCLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E6F8028CA978F6E6D51C31326458AC /* RCLocationManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		1BA5953F8732AC9697F51B8C719767AF /* RCManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F86C196A5FB550A5DA1E17271E8B751 /* RCManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2059BB99156C8A3324E8464D3C286683 /* RCDeviceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FD874C165BF3EF549E99B5CDA97F34C5 /* RCDeviceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2BE9D750E6151A2682CAE0467FD05D98 /* RCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FEBD7BA062660533E7EF91F8F7A1DF /* RCManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		31AA021BE329A4884AE487CCC1AF6BDC /* RCLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E41E46FE9EFA8F17118A867F889E086D /* RCLocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CEE482821815D9EB4CB6253894CCBC5 /* RCWeatherService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC485FB193C35C7102D95A1C65B9B06 /* RCWeatherService.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		67D72FF0607DAE62D4DC6E3A7800C681 /* RCWeatherService.h in Headers */ = {isa = PBXBuildFile; fileRef = F6C28D9F52138444AF22D842E14C5214 /* RCWeatherService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6CB24D4FE3309B002A6FD62DF2CBE177 /* RCConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 58D6969436399D3BFAE8397FBB6D71D9 /* RCConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		748085D45041B6A324318757134B99C0 /* RCDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EC6C7FF0D09CC2C25C7368B97EF4A1 /* RCDeviceManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		87C317C15A1C3C2DA278CDB8F00404A6 /* RCErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BBCCC262474034204AD812E85764CCC /* RCErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AD47D5A6FA8EE22254C8BC0D51A903D /* RCErrorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C0625B85A71D9A7548A7BE09CD5064 /* RCErrorHelper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8AEB88A47A1C1485266F09BACFB92040 /* RCCodingChallengeFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CFDE09047B475B81FCF14B02F4CE15C /* RCCodingChallengeFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2027CE0C124DA6A6493129BCAB6290F8 /* RCWeatherInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDA2A05B873214C8359F073A78DCA0C /* RCWeatherInfo.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2AE2462FF4AAF2CACF0390064FC95730 /* RCWeatherInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B1021C8B8196D54600B742867681A99 /* RCWeatherInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		363DC3A77E3B3DD7829DA4E00BB786CC /* RCDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0D46C02CBA14D933059ABE7BB315B2 /* RCDeviceManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		51A2CA227AF010B9436E081442C783AE /* RCDeviceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B0C3E9A87782C2B8892E28402172D95 /* RCDeviceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CFA4071EC0BBAD8B164D9EAE49E05CB /* RCCodingChallengeFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 845870C244ADB7F86A60418C57E215D4 /* RCCodingChallengeFramework-dummy.m */; };
+		67A2D82F36021012C0699B934907845D /* RCWeatherService.m in Sources */ = {isa = PBXBuildFile; fileRef = 879AB209DDD7D7FE94C15EF52C285C3B /* RCWeatherService.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		731F04823B6442D2C5668D4ACD40A5D1 /* RCErrorHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9379F11FE5A7A0DA7101752B1E31ADC0 /* RCErrorHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		739A9333DCECA4E46C3599AF2046FC19 /* RCConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C600B62447E760724215FE1F7B0B2FF /* RCConstants.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		762E659425E8EB0E2B92E6E1A60CD682 /* RCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 875C4D38A80CF8365E199462C2DF1C4F /* RCManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		90BA06AD3D3FBD5E77A7DAEDB653A17B /* RCLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D6CBA818889460A1650BD20C06840 /* RCLocationManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		A6040BB49E4AEE8BE6187DE823BEF177 /* Pods-RCCodingChallenge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD72B063CC857EEE3001F0CCDE0EEAFD /* Pods-RCCodingChallenge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEEDA1C8530A64C72A00C96DC3723089 /* RCWeatherService.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F67088D3D3D9D31195C45D41EA59C2 /* RCWeatherService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1F03B6458F20FFE1ADC7D1B1769552B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		C4E2F2066F6D4AAF90DBC5B72346563D /* RCErrorHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2068A95ECC85876E3822981D36EE9D4E /* RCErrorHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC9FD4E293AD4C89E0CE8B2F2E3F6208 /* RCCodingChallengeFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C2090844861C59474500B772B4D688 /* RCCodingChallengeFramework-dummy.m */; };
-		D76857E795DE3C4E4C12F0689F175D6F /* RCCodingChallengeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 57A934AF8240A06893D444C829356A4E /* RCCodingChallengeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C87733296197E131F328E2E306B3C86B /* RCLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BDC3B515E5B991812840EA49481583E8 /* RCLocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC9DFDAFF9222DC43875EEE17F7A2400 /* RCConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 28B523D3D23ABB9F987CD57221D1C1A9 /* RCConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D535AFF5A25B1D5C3314848FCE28BAD7 /* RCErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E664C23630FBFC2660023F8568D1405 /* RCErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6AAEAB0C966966CCE6F2F296EA49315 /* RCCodingChallengeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 5497A0E08208A0C9E55AF25464172B8C /* RCCodingChallengeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E16DE6CC37BB8E555A1622BBD244D5EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		F75B910555723AD28C376E6376C5CD60 /* RCWeatherInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C1038E72541A63A29EDF644E8ECB422 /* RCWeatherInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC965EEDB5EAB3BCBC7D4AFBC53DEF21 /* RCConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A78EA8D039C3B327C43BD66202936E /* RCConstants.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F53832EB92A817ABFAD2959877820406 /* RCCodingChallengeFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D335445E7FACABD4B3EC48FA523819E /* RCCodingChallengeFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB602E8213E23296372152C2482D48C5 /* RCManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 46ED95B47B6723143FC97D3273D14E7A /* RCManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,42 +43,41 @@
 
 /* Begin PBXFileReference section */
 		0230C6DB80A6AB61F9589A8D275F5A67 /* Pods-RCCodingChallenge-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RCCodingChallenge-acknowledgements.plist"; sourceTree = "<group>"; };
-		05FEBD7BA062660533E7EF91F8F7A1DF /* RCManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCManager.m; sourceTree = "<group>"; };
+		0C4C870EAF85715C659725A67995BFEB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D335445E7FACABD4B3EC48FA523819E /* RCCodingChallengeFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCCodingChallengeFramework-umbrella.h"; sourceTree = "<group>"; };
 		0E1B1013D3FD41BE03760A2EE9773F62 /* Pods-RCCodingChallenge-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCCodingChallenge-frameworks.sh"; sourceTree = "<group>"; };
-		1BBCCC262474034204AD812E85764CCC /* RCErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCErrors.h; sourceTree = "<group>"; };
-		2068A95ECC85876E3822981D36EE9D4E /* RCErrorHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCErrorHelper.h; sourceTree = "<group>"; };
-		25A78EA8D039C3B327C43BD66202936E /* RCConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCConstants.m; sourceTree = "<group>"; };
-		28C0625B85A71D9A7548A7BE09CD5064 /* RCErrorHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCErrorHelper.m; sourceTree = "<group>"; };
-		33B9DDAF64E58CC895FB22B5D9396FDE /* RCCodingChallengeFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RCCodingChallengeFramework.modulemap; sourceTree = "<group>"; };
+		28B523D3D23ABB9F987CD57221D1C1A9 /* RCConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCConstants.h; path = RCCodingChallengeFramework/Supporting/RCConstants.h; sourceTree = "<group>"; };
+		31A54D15F435B2E8BF186FEADEBF5B32 /* RCCodingChallengeFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RCCodingChallengeFramework.modulemap; sourceTree = "<group>"; };
 		33CCE42FF700C2E74D6AA273BE5AA1C8 /* Pods-RCCodingChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCCodingChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		3B1021C8B8196D54600B742867681A99 /* RCWeatherInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCWeatherInfo.h; path = RCCodingChallengeFramework/Models/RCWeatherInfo.h; sourceTree = "<group>"; };
+		3BBDA1C511E5829AB971CE8F697C7C77 /* RCCodingChallengeFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RCCodingChallengeFramework.xcconfig; sourceTree = "<group>"; };
 		3C35030601E76C9011C6E9D785466283 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3CC485FB193C35C7102D95A1C65B9B06 /* RCWeatherService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCWeatherService.m; sourceTree = "<group>"; };
-		4C39B8F73D9892B5D7C85374F7FD5F5E /* RCCodingChallengeFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RCCodingChallengeFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		43F67088D3D3D9D31195C45D41EA59C2 /* RCWeatherService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCWeatherService.h; path = RCCodingChallengeFramework/Services/RCWeatherService.h; sourceTree = "<group>"; };
+		46ED95B47B6723143FC97D3273D14E7A /* RCManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCManager.h; path = RCCodingChallengeFramework/Managers/RCManager.h; sourceTree = "<group>"; };
+		4E664C23630FBFC2660023F8568D1405 /* RCErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCErrors.h; path = RCCodingChallengeFramework/Supporting/RCErrors.h; sourceTree = "<group>"; };
 		5154FF67EBBE0B669B02294CCCC7B6C2 /* Pods_RCCodingChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RCCodingChallenge.framework; path = "Pods-RCCodingChallenge.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		57A934AF8240A06893D444C829356A4E /* RCCodingChallengeFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCCodingChallengeFramework.h; path = RCCodingChallengeFramework/RCCodingChallengeFramework.h; sourceTree = "<group>"; };
-		58D6969436399D3BFAE8397FBB6D71D9 /* RCConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCConstants.h; sourceTree = "<group>"; };
+		5497A0E08208A0C9E55AF25464172B8C /* RCCodingChallengeFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCCodingChallengeFramework.h; path = RCCodingChallengeFramework/RCCodingChallengeFramework.h; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5C1038E72541A63A29EDF644E8ECB422 /* RCWeatherInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCWeatherInfo.h; sourceTree = "<group>"; };
-		6CFDE09047B475B81FCF14B02F4CE15C /* RCCodingChallengeFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCCodingChallengeFramework-umbrella.h"; sourceTree = "<group>"; };
-		6E6DD1E9520D3084610B6020AE05E17F /* RCWeatherInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCWeatherInfo.m; sourceTree = "<group>"; };
+		6B0C3E9A87782C2B8892E28402172D95 /* RCDeviceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCDeviceManager.h; path = RCCodingChallengeFramework/Managers/RCDeviceManager.h; sourceTree = "<group>"; };
+		6E0D6CBA818889460A1650BD20C06840 /* RCLocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCLocationManager.m; path = RCCodingChallengeFramework/Managers/RCLocationManager.m; sourceTree = "<group>"; };
 		746142941122E32475A3E3B09906719B /* Pods-RCCodingChallenge-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RCCodingChallenge-acknowledgements.markdown"; sourceTree = "<group>"; };
-		83DF098C3FD19246370C5DC7BFB2FC78 /* RCCodingChallengeFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCCodingChallengeFramework-prefix.pch"; sourceTree = "<group>"; };
+		7C600B62447E760724215FE1F7B0B2FF /* RCConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCConstants.m; path = RCCodingChallengeFramework/Supporting/RCConstants.m; sourceTree = "<group>"; };
+		81588022310029CE0E73656A874E168F /* RCCodingChallengeFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCCodingChallengeFramework-prefix.pch"; sourceTree = "<group>"; };
+		845870C244ADB7F86A60418C57E215D4 /* RCCodingChallengeFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RCCodingChallengeFramework-dummy.m"; sourceTree = "<group>"; };
 		86ECBCB1658C1BE928B2693498CD8481 /* Pods-RCCodingChallenge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RCCodingChallenge.modulemap"; sourceTree = "<group>"; };
+		875C4D38A80CF8365E199462C2DF1C4F /* RCManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCManager.m; path = RCCodingChallengeFramework/Managers/RCManager.m; sourceTree = "<group>"; };
+		879AB209DDD7D7FE94C15EF52C285C3B /* RCWeatherService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCWeatherService.m; path = RCCodingChallengeFramework/Services/RCWeatherService.m; sourceTree = "<group>"; };
 		8AA24BE678D0C4F1F835DC16EC5B8CCB /* Pods-RCCodingChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCCodingChallenge.release.xcconfig"; sourceTree = "<group>"; };
-		915FD5C91A19C2C7793CD4C8786E7186 /* RCCodingChallengeFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RCCodingChallengeFramework.xcconfig; sourceTree = "<group>"; };
+		9379F11FE5A7A0DA7101752B1E31ADC0 /* RCErrorHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCErrorHelper.h; path = RCCodingChallengeFramework/Supporting/RCErrorHelper.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C3A6DDD03FD858C3E0F3A71A7B8D240 /* RCCodingChallengeFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RCCodingChallengeFramework.framework; path = RCCodingChallengeFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F86C196A5FB550A5DA1E17271E8B751 /* RCManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCManager.h; sourceTree = "<group>"; };
+		BDC3B515E5B991812840EA49481583E8 /* RCLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCLocationManager.h; path = RCCodingChallengeFramework/Managers/RCLocationManager.h; sourceTree = "<group>"; };
 		C6A835B40F6099943D8559AAC67E414E /* Pods-RCCodingChallenge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RCCodingChallenge-dummy.m"; sourceTree = "<group>"; };
-		C7C2090844861C59474500B772B4D688 /* RCCodingChallengeFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RCCodingChallengeFramework-dummy.m"; sourceTree = "<group>"; };
-		CA57C3B236D50371D27DC6F785326B38 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD72B063CC857EEE3001F0CCDE0EEAFD /* Pods-RCCodingChallenge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RCCodingChallenge-umbrella.h"; sourceTree = "<group>"; };
-		D8EC6C7FF0D09CC2C25C7368B97EF4A1 /* RCDeviceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCDeviceManager.m; sourceTree = "<group>"; };
-		E41E46FE9EFA8F17118A867F889E086D /* RCLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCLocationManager.h; sourceTree = "<group>"; };
+		DD2E56A49E12A8D41D36FA9FA375885B /* RCErrorHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCErrorHelper.m; path = RCCodingChallengeFramework/Supporting/RCErrorHelper.m; sourceTree = "<group>"; };
 		E6C49C847310F7A198CBA7624B0CFEF6 /* Pods-RCCodingChallenge-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCCodingChallenge-resources.sh"; sourceTree = "<group>"; };
-		F6C28D9F52138444AF22D842E14C5214 /* RCWeatherService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCWeatherService.h; sourceTree = "<group>"; };
-		F7E6F8028CA978F6E6D51C31326458AC /* RCLocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCLocationManager.m; sourceTree = "<group>"; };
-		FD874C165BF3EF549E99B5CDA97F34C5 /* RCDeviceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCDeviceManager.h; sourceTree = "<group>"; };
+		EEDA2A05B873214C8359F073A78DCA0C /* RCWeatherInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCWeatherInfo.m; path = RCCodingChallengeFramework/Models/RCWeatherInfo.m; sourceTree = "<group>"; };
+		FE0D46C02CBA14D933059ABE7BB315B2 /* RCDeviceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCDeviceManager.m; path = RCCodingChallengeFramework/Managers/RCDeviceManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,22 +108,43 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		394CC3F35952726A0E8EF3F70ECE5BD3 /* Services */ = {
+		331E568E94D12714FC80EDE4D6E720D2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F6C28D9F52138444AF22D842E14C5214 /* RCWeatherService.h */,
-				3CC485FB193C35C7102D95A1C65B9B06 /* RCWeatherService.m */,
+				0C4C870EAF85715C659725A67995BFEB /* Info.plist */,
+				31A54D15F435B2E8BF186FEADEBF5B32 /* RCCodingChallengeFramework.modulemap */,
+				3BBDA1C511E5829AB971CE8F697C7C77 /* RCCodingChallengeFramework.xcconfig */,
+				845870C244ADB7F86A60418C57E215D4 /* RCCodingChallengeFramework-dummy.m */,
+				81588022310029CE0E73656A874E168F /* RCCodingChallengeFramework-prefix.pch */,
+				0D335445E7FACABD4B3EC48FA523819E /* RCCodingChallengeFramework-umbrella.h */,
 			);
-			name = Services;
-			path = RCCodingChallengeFramework/Services;
+			name = "Support Files";
+			path = "../Target Support Files/RCCodingChallengeFramework";
 			sourceTree = "<group>";
 		};
-		455AD82FFD6423ABD126E5B54F1341D2 /* Pod */ = {
+		3627AB0C9A74A2B2D9DB914DE7EEA065 /* RCCodingChallengeFramework */ = {
 			isa = PBXGroup;
 			children = (
-				4C39B8F73D9892B5D7C85374F7FD5F5E /* RCCodingChallengeFramework.podspec */,
+				5497A0E08208A0C9E55AF25464172B8C /* RCCodingChallengeFramework.h */,
+				28B523D3D23ABB9F987CD57221D1C1A9 /* RCConstants.h */,
+				7C600B62447E760724215FE1F7B0B2FF /* RCConstants.m */,
+				6B0C3E9A87782C2B8892E28402172D95 /* RCDeviceManager.h */,
+				FE0D46C02CBA14D933059ABE7BB315B2 /* RCDeviceManager.m */,
+				9379F11FE5A7A0DA7101752B1E31ADC0 /* RCErrorHelper.h */,
+				DD2E56A49E12A8D41D36FA9FA375885B /* RCErrorHelper.m */,
+				4E664C23630FBFC2660023F8568D1405 /* RCErrors.h */,
+				BDC3B515E5B991812840EA49481583E8 /* RCLocationManager.h */,
+				6E0D6CBA818889460A1650BD20C06840 /* RCLocationManager.m */,
+				46ED95B47B6723143FC97D3273D14E7A /* RCManager.h */,
+				875C4D38A80CF8365E199462C2DF1C4F /* RCManager.m */,
+				3B1021C8B8196D54600B742867681A99 /* RCWeatherInfo.h */,
+				EEDA2A05B873214C8359F073A78DCA0C /* RCWeatherInfo.m */,
+				43F67088D3D3D9D31195C45D41EA59C2 /* RCWeatherService.h */,
+				879AB209DDD7D7FE94C15EF52C285C3B /* RCWeatherService.m */,
+				331E568E94D12714FC80EDE4D6E720D2 /* Support Files */,
 			);
-			name = Pod;
+			name = RCCodingChallengeFramework;
+			path = RCCodingChallengeFramework;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -135,36 +155,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		671EDBA4F622E614B6963C4DA570566D /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				5C1038E72541A63A29EDF644E8ECB422 /* RCWeatherInfo.h */,
-				6E6DD1E9520D3084610B6020AE05E17F /* RCWeatherInfo.m */,
-			);
-			name = Models;
-			path = RCCodingChallengeFramework/Models;
-			sourceTree = "<group>";
-		};
-		6E70C7B8F52221960DB99DBB8BF13E66 /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-				FD874C165BF3EF549E99B5CDA97F34C5 /* RCDeviceManager.h */,
-				D8EC6C7FF0D09CC2C25C7368B97EF4A1 /* RCDeviceManager.m */,
-				E41E46FE9EFA8F17118A867F889E086D /* RCLocationManager.h */,
-				F7E6F8028CA978F6E6D51C31326458AC /* RCLocationManager.m */,
-				9F86C196A5FB550A5DA1E17271E8B751 /* RCManager.h */,
-				05FEBD7BA062660533E7EF91F8F7A1DF /* RCManager.m */,
-			);
-			name = Managers;
-			path = RCCodingChallengeFramework/Managers;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BE3E7416D26C0E8DC005EE779869049C /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E17ADC474A93AB7CC000206BC06C9431 /* Pods */,
 				D912B09567FE017E7BC82F8724CEF3EA /* Products */,
 				2893131272452B8B225998417D2C4784 /* Targets Support Files */,
 			);
@@ -196,41 +192,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BE3E7416D26C0E8DC005EE779869049C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DA64ED603BA683653F4B2DA1D02C9421 /* RCCodingChallengeFramework */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		C814635A86F6FDE9AF4673623829435E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CA57C3B236D50371D27DC6F785326B38 /* Info.plist */,
-				33B9DDAF64E58CC895FB22B5D9396FDE /* RCCodingChallengeFramework.modulemap */,
-				915FD5C91A19C2C7793CD4C8786E7186 /* RCCodingChallengeFramework.xcconfig */,
-				C7C2090844861C59474500B772B4D688 /* RCCodingChallengeFramework-dummy.m */,
-				83DF098C3FD19246370C5DC7BFB2FC78 /* RCCodingChallengeFramework-prefix.pch */,
-				6CFDE09047B475B81FCF14B02F4CE15C /* RCCodingChallengeFramework-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../RCCodingChallenge/Pods/Target Support Files/RCCodingChallengeFramework";
-			sourceTree = "<group>";
-		};
-		CC31068321DC911DE9BAACCAE72BE9AC /* Supporting */ = {
-			isa = PBXGroup;
-			children = (
-				58D6969436399D3BFAE8397FBB6D71D9 /* RCConstants.h */,
-				25A78EA8D039C3B327C43BD66202936E /* RCConstants.m */,
-				2068A95ECC85876E3822981D36EE9D4E /* RCErrorHelper.h */,
-				28C0625B85A71D9A7548A7BE09CD5064 /* RCErrorHelper.m */,
-				1BBCCC262474034204AD812E85764CCC /* RCErrors.h */,
-			);
-			name = Supporting;
-			path = RCCodingChallengeFramework/Supporting;
-			sourceTree = "<group>";
-		};
 		D912B09567FE017E7BC82F8724CEF3EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,19 +201,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DA64ED603BA683653F4B2DA1D02C9421 /* RCCodingChallengeFramework */ = {
+		E17ADC474A93AB7CC000206BC06C9431 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				57A934AF8240A06893D444C829356A4E /* RCCodingChallengeFramework.h */,
-				6E70C7B8F52221960DB99DBB8BF13E66 /* Managers */,
-				671EDBA4F622E614B6963C4DA570566D /* Models */,
-				455AD82FFD6423ABD126E5B54F1341D2 /* Pod */,
-				394CC3F35952726A0E8EF3F70ECE5BD3 /* Services */,
-				C814635A86F6FDE9AF4673623829435E /* Support Files */,
-				CC31068321DC911DE9BAACCAE72BE9AC /* Supporting */,
+				3627AB0C9A74A2B2D9DB914DE7EEA065 /* RCCodingChallengeFramework */,
 			);
-			name = RCCodingChallengeFramework;
-			path = ../../RCCodingChallengeFramework;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,20 +220,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E7D00B0ABE65BEC2AE80941C45C3F6C9 /* Headers */ = {
+		2807D9A5A01F889461EA71071AB18ABE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AEB88A47A1C1485266F09BACFB92040 /* RCCodingChallengeFramework-umbrella.h in Headers */,
-				D76857E795DE3C4E4C12F0689F175D6F /* RCCodingChallengeFramework.h in Headers */,
-				6CB24D4FE3309B002A6FD62DF2CBE177 /* RCConstants.h in Headers */,
-				2059BB99156C8A3324E8464D3C286683 /* RCDeviceManager.h in Headers */,
-				C4E2F2066F6D4AAF90DBC5B72346563D /* RCErrorHelper.h in Headers */,
-				87C317C15A1C3C2DA278CDB8F00404A6 /* RCErrors.h in Headers */,
-				31AA021BE329A4884AE487CCC1AF6BDC /* RCLocationManager.h in Headers */,
-				1BA5953F8732AC9697F51B8C719767AF /* RCManager.h in Headers */,
-				F75B910555723AD28C376E6376C5CD60 /* RCWeatherInfo.h in Headers */,
-				67D72FF0607DAE62D4DC6E3A7800C681 /* RCWeatherService.h in Headers */,
+				F53832EB92A817ABFAD2959877820406 /* RCCodingChallengeFramework-umbrella.h in Headers */,
+				D6AAEAB0C966966CCE6F2F296EA49315 /* RCCodingChallengeFramework.h in Headers */,
+				CC9DFDAFF9222DC43875EEE17F7A2400 /* RCConstants.h in Headers */,
+				51A2CA227AF010B9436E081442C783AE /* RCDeviceManager.h in Headers */,
+				731F04823B6442D2C5668D4ACD40A5D1 /* RCErrorHelper.h in Headers */,
+				D535AFF5A25B1D5C3314848FCE28BAD7 /* RCErrors.h in Headers */,
+				C87733296197E131F328E2E306B3C86B /* RCLocationManager.h in Headers */,
+				FB602E8213E23296372152C2482D48C5 /* RCManager.h in Headers */,
+				2AE2462FF4AAF2CACF0390064FC95730 /* RCWeatherInfo.h in Headers */,
+				AEEDA1C8530A64C72A00C96DC3723089 /* RCWeatherService.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,8 +263,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AD86B5EE39D338A0821CF90AA8041F5 /* Build configuration list for PBXNativeTarget "RCCodingChallengeFramework" */;
 			buildPhases = (
-				E7D00B0ABE65BEC2AE80941C45C3F6C9 /* Headers */,
-				0F6E60EC9AFAB50570DB827F7EC84AEA /* Sources */,
+				2807D9A5A01F889461EA71071AB18ABE /* Headers */,
+				C1AC96D695E6A742B178052047D72EBA /* Sources */,
 				E865BAED3FC2D81FC5F726B9DAAD11EA /* Frameworks */,
 				AA161A4768EACA3EFC4A5E906A51830C /* Resources */,
 			);
@@ -368,26 +322,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0F6E60EC9AFAB50570DB827F7EC84AEA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CC9FD4E293AD4C89E0CE8B2F2E3F6208 /* RCCodingChallengeFramework-dummy.m in Sources */,
-				FC965EEDB5EAB3BCBC7D4AFBC53DEF21 /* RCConstants.m in Sources */,
-				748085D45041B6A324318757134B99C0 /* RCDeviceManager.m in Sources */,
-				8AD47D5A6FA8EE22254C8BC0D51A903D /* RCErrorHelper.m in Sources */,
-				119CF7AEB7C33A4EFD73E3871999E695 /* RCLocationManager.m in Sources */,
-				2BE9D750E6151A2682CAE0467FD05D98 /* RCManager.m in Sources */,
-				03FA0408C34038AF919E5BEC8F2D2336 /* RCWeatherInfo.m in Sources */,
-				5CEE482821815D9EB4CB6253894CCBC5 /* RCWeatherService.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A9A2D31E5355F38A7CEAAAA3341AF2DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0CA18F10D7D4719E6D2DB0A41DDF8B30 /* Pods-RCCodingChallenge-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1AC96D695E6A742B178052047D72EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFA4071EC0BBAD8B164D9EAE49E05CB /* RCCodingChallengeFramework-dummy.m in Sources */,
+				739A9333DCECA4E46C3599AF2046FC19 /* RCConstants.m in Sources */,
+				363DC3A77E3B3DD7829DA4E00BB786CC /* RCDeviceManager.m in Sources */,
+				0308F98D324682A1ECBCA0D047CB8BC5 /* RCErrorHelper.m in Sources */,
+				90BA06AD3D3FBD5E77A7DAEDB653A17B /* RCLocationManager.m in Sources */,
+				762E659425E8EB0E2B92E6E1A60CD682 /* RCManager.m in Sources */,
+				2027CE0C124DA6A6493129BCAB6290F8 /* RCWeatherInfo.m in Sources */,
+				67A2D82F36021012C0699B934907845D /* RCWeatherService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +359,7 @@
 /* Begin XCBuildConfiguration section */
 		57176554C4E14F18C69466303F3260B3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 915FD5C91A19C2C7793CD4C8786E7186 /* RCCodingChallengeFramework.xcconfig */;
+			baseConfigurationReference = 3BBDA1C511E5829AB971CE8F697C7C77 /* RCCodingChallengeFramework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -537,7 +491,7 @@
 		};
 		D7EB5197E48D58FF8511D75190E399F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 915FD5C91A19C2C7793CD4C8786E7186 /* RCCodingChallengeFramework.xcconfig */;
+			baseConfigurationReference = 3BBDA1C511E5829AB971CE8F697C7C77 /* RCCodingChallengeFramework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

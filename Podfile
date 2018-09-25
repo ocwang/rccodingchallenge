@@ -4,7 +4,7 @@ target 'RCCodingChallenge' do
   use_frameworks!
 
   # Pods for RCCodingChallenge
-  pod 'RCCodingChallengeFramework', :path => '../RCCodingChallengeFramework'
+  pod 'RCCodingChallengeFramework', :git => 'https://github.com/ocwang/RCCodingChallengeFramework.git', :branch => 'master'
 end
 
 # Workaround for Cocoapods issue #7606

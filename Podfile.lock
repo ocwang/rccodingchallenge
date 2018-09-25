@@ -2,15 +2,21 @@ PODS:
   - RCCodingChallengeFramework (0.0.1)
 
 DEPENDENCIES:
-  - RCCodingChallengeFramework (from `../RCCodingChallengeFramework`)
+  - RCCodingChallengeFramework (from `https://github.com/ocwang/RCCodingChallengeFramework.git`, branch `master`)
 
 EXTERNAL SOURCES:
   RCCodingChallengeFramework:
-    :path: "../RCCodingChallengeFramework"
+    :branch: master
+    :git: https://github.com/ocwang/RCCodingChallengeFramework.git
+
+CHECKOUT OPTIONS:
+  RCCodingChallengeFramework:
+    :commit: a32c6d03f51f10b73fd4123169d10ddb664573e4
+    :git: https://github.com/ocwang/RCCodingChallengeFramework.git
 
 SPEC CHECKSUMS:
-  RCCodingChallengeFramework: c6e3d5c8a66db9a18e8bbb07485499e71c946545
+  RCCodingChallengeFramework: ccf3396d5e9d4d64e012d7d71d3b89befbf2e558
 
-PODFILE CHECKSUM: 685fa0bbc3185ecd1a42970c92eaa8bd470d0c2a
+PODFILE CHECKSUM: 1917ee1bbbf68e0bff30f7a1f0b470f62aeae8d3
 
 COCOAPODS: 1.5.3
